@@ -1,0 +1,2 @@
+rvizweb
+-DCATKIN_DEVEL_PREFIX=/home/dimitris/ws1/devel -DCMAKE_INSTALL_PREFIX=/home/dimitris/ws1/install -G Unix Makefiles

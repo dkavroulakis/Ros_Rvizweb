@@ -1,0 +1,66 @@
+{
+  "globalOptions": {
+    "background": "#111111",
+    "colladaLoader": "collada2",
+    "fixedFrame": "/map",
+    "colladaServer": "http://localhost:8000/",
+    "url": "ws://localhost:9090",
+    "videoServer": "http://localhost:9999"
+  },
+  "sidebarOpened": true,
+  "displays": [
+    {
+      "isShown": true,
+      "name": "Robot model",
+      "options": {
+        "param": "robot/robot_description"
+      },
+      "type": "urdf"
+    },
+    {
+      "isShown": true,
+      "name": "Grid",
+      "options": {
+        "cellSize": "1",
+        "color": "#cccccc",
+        "numCells": "100"
+      },
+      "type": "grid"
+    },
+    {
+      "isShown": true,
+      "name": "RB1 Global costmap",
+      "options": {
+        "topic": "/robot/move_base/global_costmap/costmap",
+        "continuous": true,
+        "opacity": "1"
+      },
+      "type": "occupancyGrid"
+    },
+    {
+      "isShown": true,
+      "name": "RB1 Local costmap",
+      "options": {
+        "topic": "/robot/move_base/local_costmap/costmap",
+        "continuous": true,
+        "opacity": "1"
+      },
+      "type": "occupancyGrid"
+    },
+    {
+      "isShown": true,
+      "name": "Map",
+      "options": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "continuous": true,
+        "opacity": "1",
+        "topic": "/robot/map"
+      },
+      "type": "occupancyGrid"
+    }
+  ]
+}

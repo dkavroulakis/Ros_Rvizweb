@@ -1,0 +1,14 @@
+{
+  "name": "ros3djs",
+  "homepage": "https://github.com/RobotWebTools/ros3djs",
+  "version": "1.1.0",
+  "_release": "1.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.0",
+    "commit": "393f5bb991c3974a94eaa3b62a555146648db1ab"
+  },
+  "_source": "https://github.com/RobotWebTools/ros3djs.git",
+  "_target": "^1.0.0",
+  "_originalSource": "RobotWebTools/ros3djs"
+}
